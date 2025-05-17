@@ -13,4 +13,4 @@ this.daysAttended=daysAttended;
 
 }
 
-public setName
+public setName()
