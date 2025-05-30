@@ -66,11 +66,11 @@ public class ParkingLotTracker {
                 if (vehicles[i].getLicensePlate().equalsIgnoreCase(licensePlate)) {
                     found = true;
                     System.out.println("Removing vehicle: " + licensePlate);
-                    // Shift vehicles left
+                
                     for (int j = i; j < vehicleCount - 1; j++) {
                         vehicles[j] = vehicles[j + 1];
                     }
-                    vehicles[--vehicleCount] = null; // remove last duplicate
+                    vehicles[--vehicleCount] = null;
                     break;
                 }
             }
