@@ -62,7 +62,7 @@
                 }
             }
 
-            // Book the ticket
+            
             tickets[bookingCount++] = new Ticket(ticketNumber, customerName, seatNumber);
             System.out.println("Ticket booked: " + customerName + " (Seat " + seatNumber + ")");
         }
