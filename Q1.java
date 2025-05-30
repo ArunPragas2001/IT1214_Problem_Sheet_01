@@ -47,7 +47,7 @@ public class StudentAttendanceSystem {
         private int studentCount;
 
         public Classroom() {
-            students = new Student[10]; // max capacity 10
+            students = new Student[10];
             studentCount = 0;
         }
 
