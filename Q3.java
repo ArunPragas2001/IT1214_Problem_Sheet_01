@@ -57,7 +57,7 @@ public class BankAccountManager {
         private int accountCount;
 
         public Bank() {
-            accounts = new BankAccount[5]; // max 5 accounts
+            accounts = new BankAccount[5];
             accountCount = 0;
         }
 
